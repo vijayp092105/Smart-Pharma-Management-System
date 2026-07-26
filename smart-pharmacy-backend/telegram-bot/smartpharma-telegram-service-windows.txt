@@ -1,0 +1,22 @@
+SERVICE NAME:
+    SmartPharmaTelegramBot
+
+DESCRIPTION:
+    SmartPharmacy Telegram Alert Bot (Windows Service)
+
+EXECUTABLE:
+    D:\Viki\Zenith\smart-pharma-project\smart-pharmacy-backend\telegram-bot\venv\Scripts\python.exe
+
+SCRIPT TO RUN:
+    D:\Viki\Zenith\smart-pharma-project\smart-pharmacy-backend\telegram-bot\main.py
+
+WORKING DIRECTORY:
+    D:\Viki\Zenith\smart-pharma-project\smart-pharmacy-backend\telegram-bot
+
+ENVIRONMENT (optional):
+    - No manual activation needed: python.exe inside venv already activates the virtual environment.
+    - Use python-dotenv to auto-load .env.
+
+RESTART POLICY:
+    Restart on failure
+    Delay 10 seconds

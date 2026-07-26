@@ -1,0 +1,44 @@
+### Health Check
+GET http://localhost:5000/api/health
+
+### Get Dashboard Data
+GET http://localhost:5000/api/dashboard
+
+### Get Drugs Inventory
+GET http://localhost:5000/api/inventory/drugs
+
+### Get Drugs with Search
+GET http://localhost:5000/api/inventory/drugs?search=lipitor
+
+### Get Patients
+GET http://localhost:5000/api/inventory/patients
+
+### Get Doctors
+GET http://localhost:5000/api/inventory/doctors
+
+### Get Prescriptions
+GET http://localhost:5000/api/inventory/prescriptions
+
+### Get Low Stock Alerts
+GET http://localhost:5000/api/inventory/alerts/low-stock
+
+### Get Expiry Alerts
+GET http://localhost:5000/api/inventory/alerts/expiry
+
+### Get All Alerts
+GET http://localhost:5000/api/alerts
+
+### Get Reorder Suggestions
+GET http://localhost:5000/api/alerts/reorder
+
+### Chat with Assistant
+POST http://localhost:5000/api/chat
+Content-Type: application/json
+
+{
+  "message": "What drugs are low in stock?",
+  "sessionId": "test-session-123"
+}
+
+### Get Upload History
+GET http://localhost:5000/api/upload/history
